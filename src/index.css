@@ -1,6 +1,41 @@
+@font-face {
+font-family: "Muli";
+src: local("Muli"),
+ url("./fonts/Muli-Regular.ttf") format("truetype");
+}
+@font-face {
+font-family: "MuliBold";
+src: local("Muli"),
+ url("./fonts/Muli-Bold.ttf") format("truetype");
+ font-weight: bold;
+}
+@font-face {
+font-family: "Merriweather";
+src: local("Merriweather"),
+ url("./fonts/Merriweather-Regular.ttf") format("truetype");
+}
+@font-face {
+font-family: "MerriweatherBold";
+src: local("Merriweather"),
+ url("./fonts/Merriweather-Bold.ttf") format("truetype");
+ font-weight: bold;
+}
+@font-face {
+font-family: "Montserrat";
+src: local("Montserrat"),
+ url("./fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "Montserrat-Bold";
+src: local("Montserrat"),
+ url("./fonts/Montserrat-Bold.ttf") format("truetype");
+ font-weight: bold;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, 'Muli', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +45,110 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.home {
+  margin-left: "6rem";
+}
+
+.banner-title {
+  text-align: left;
+font: normal normal bold 64px/90px Merriweather;
+letter-spacing: 0.45px;
+color: #1E202F;
+opacity: 1;
+}
+
+.marketing, .footer {
+  margin-right: "8rem";
+}
+
+.line {
+  width: 32px;
+height: 0px;
+border: 1px solid #4099F1;
+opacity: 1;
+}
+.blog {
+  text-align: left;
+font: normal normal bold 14px/26px Muli;
+letter-spacing: 1px;
+color: #4099F1;
+opacity: 1;
+}
+.marketing-title {
+  text-align: left;
+font: normal normal bold 32px/42px Merriweather;
+letter-spacing: 0.5px;
+color: #1E202F;
+opacity: 1;
+}
+.marketing-card {
+    width: 312px;
+    max-width: 312px;
+
+position: relative;
+}
+.card-image {
+/* UI Properties */
+/* background: transparent url('img/Mask Group 1.png') 0% 0% no-repeat padding-box; */
+height: 322px;
+opacity: 1;
+}
+.card-title {
+  text-align: left;
+font: normal normal 900 20px/30px Merriweather;
+letter-spacing: 0.42px;
+color: #1E202F;
+opacity: 1;
+/* word-wrap: break-word; */
+}
+.card-description {
+  text-align: left;
+font: normal normal normal 12px/23px Muli;
+letter-spacing: 0.24px;
+color: #888990;
+opacity: 1;
+}
+.card-overlay-content {
+  position: absolute;
+  width: 151px;
+height: 48px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+bottom: 0;
+left: 0;
+}
+.author {
+
+text-align: left;
+font: normal normal bold 12px/30px Merriweather;
+letter-spacing: 0.25px;
+color: #1E202F;
+opacity: 1;
+    margin-bottom: -10px;
+}
+.designation {
+  text-align: left;
+font: normal normal 300 8px/26px Muli;
+letter-spacing: 0.25px;
+color: #B2B2B2;
+opacity: 1;
+margin: 0;
+}
+.footer-item {
+  font: normal normal normal 16px/26px Muli;
+letter-spacing: 0.5px;
+color: #212B36;
+opacity: 1;
+}
+
+@media screen and (max-width: "720px") {
+  .home {
+    margin: auto;
+  }
+  .marketing, .footer {
+    margin-right: auto;
+  }
 }

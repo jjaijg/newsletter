@@ -1,5 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './fonts/Muli-Regular.ttf';
+import './fonts/Muli-Bold.ttf';
+import './fonts/Merriweather-Regular.ttf';
+import './fonts/Merriweather-Bold.ttf';
+import "bootstrap/dist/css/bootstrap.min.css";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
