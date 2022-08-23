@@ -8,7 +8,7 @@ const Footer = () => {
         <Col sm={12} md={12} lg={7} className=" d-flex align-items-center">
           <Navbar.Brand href="#home">
             <img
-              src="/assets/Logo.svg"
+              src="./assets/Logo.svg"
               width="148"
               height="58"
               className="d-inline-block align-top"

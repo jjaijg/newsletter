@@ -18,7 +18,7 @@ const Card = () => {
             <Image
               roundedCircle
               className="mx-2"
-              src="/assets/Ellipse 24.png"
+              src="./assets/Ellipse 24.png"
             />
             <div className="d-flex flex-column justify-content-center mx-2">
               <h5 className="author">John Doe</h5>
