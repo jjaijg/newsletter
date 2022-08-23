@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/newsletter/static/css/main.fb58c141.css",
+    "main.js": "/newsletter/static/js/main.6d51f231.js",
+    "static/js/787.e9b54d54.chunk.js": "/newsletter/static/js/787.e9b54d54.chunk.js",
+    "static/media/Merriweather-Bold.ttf": "/newsletter/static/media/Merriweather-Bold.c1a20baec499d154afc1.ttf",
+    "static/media/Merriweather-Regular.ttf": "/newsletter/static/media/Merriweather-Regular.de3de5d70c3d436eb475.ttf",
+    "static/media/Muli-Regular.ttf": "/newsletter/static/media/Muli-Regular.d08337b78196eb4754a0.ttf",
+    "static/media/Muli-Bold.ttf": "/newsletter/static/media/Muli-Bold.23a4f6051b5d1c12337c.ttf",
+    "static/media/Montserrat-Bold.ttf": "/newsletter/static/media/Montserrat-Bold.733964aa5261b1af4852.ttf",
+    "index.html": "/newsletter/index.html",
+    "main.fb58c141.css.map": "/newsletter/static/css/main.fb58c141.css.map",
+    "main.6d51f231.js.map": "/newsletter/static/js/main.6d51f231.js.map",
+    "787.e9b54d54.chunk.js.map": "/newsletter/static/js/787.e9b54d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb58c141.css",
+    "static/js/main.6d51f231.js"
+  ]
+}
