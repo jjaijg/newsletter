@@ -17,8 +17,8 @@ const HeroSection = () => {
         </Col>
         <Col sm={12} md={6}>
           <img
-            src="./assets/Illustration.svg"
-            alt=""
+            src="/newsletter/assets/Illustration.svg"
+            alt="Get newsletter"
             width={"100%"}
             className="d-inline-block align-top"
           />

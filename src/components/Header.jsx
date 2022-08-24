@@ -8,7 +8,7 @@ const Header = () => {
         <Container>
           <Navbar.Brand href="#home">
             <img
-              src="./assets/Logo.svg"
+              src="/newsletter/assets/Logo.svg"
               width="148"
               height="58"
               className="d-inline-block align-top"

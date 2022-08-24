@@ -8,7 +8,7 @@ const Card = () => {
         {/* image */}
         <img
           className="card-image"
-          src="./assets/Mask Group 1.png"
+          src="/newsletter/assets/Mask Group 1.png"
           alt="marketing title"
         />
         {/* overlay */}
@@ -18,7 +18,7 @@ const Card = () => {
             <Image
               roundedCircle
               className="mx-2"
-              src="./assets/Ellipse 24.png"
+              src="/newsletter/assets/Ellipse 24.png"
             />
             <div className="d-flex flex-column justify-content-center mx-2">
               <h5 className="author">John Doe</h5>
